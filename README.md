@@ -14,11 +14,9 @@ also be used with Drupal installed directly on a git clone of core.
 # 1A: Install with Composer project template (recommended)
 # If you already installed a project using the template following the
 # instructions in its README then skip to step 2.
-ddev config --project-type=drupal --php-version=8.3
+ddev config --project-type=drupal11 --docroot=web
 ddev start
 ddev composer create joachim-n/drupal-core-development-project
-ddev config --update
-ddev restart
 
 # 1B: Install directly on a git clone
 git clone https://git.drupalcode.org/project/drupal.git drupal
