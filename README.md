@@ -16,7 +16,7 @@ also be used with Drupal installed directly on a git clone of core.
 # instructions in its README then skip to step 2.
 ddev config --project-type=drupal11 --docroot=web
 ddev start
-ddev composer create joachim-n/drupal-core-development-project
+ddev composer create-project joachim-n/drupal-core-development-project
 
 # 1B: Install directly on a git clone
 git clone https://git.drupalcode.org/project/drupal.git drupal
