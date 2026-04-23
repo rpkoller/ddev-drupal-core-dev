@@ -27,7 +27,7 @@ ddev start
 ddev composer install
 
 # 2. Install this add-on
-ddev add-on get justafish/ddev-drupal-core-dev
+ddev add-on get joachim-n/ddev-drupal-core-dev
 
 # 3. Install drupal
 ddev drush si -y --account-pass==admin
